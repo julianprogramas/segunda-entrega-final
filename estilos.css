@@ -1,3 +1,43 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+
+body{
+    font-family: cursive;
+    margin: 0;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7;}
+h3{font-size: 2em;}
+h4{font-size: 1.7em;}
+h5{font-size: 1.5em;}
+ul{list-style: none;}
+li{font-size: 1.55em;}
+
+button{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgb(0,0,0,0,5);
+    box-shadow: 1px, 2px, 10px rgb(0,0,0,0,5);
+    background: red;
+    color: gold;
+}
+
+button:hover{
+    background-color: wheat;
+    color: black;
+}
+
+.conteiner{
+    max-width: 1400px;
+    margin: auto;
+}
 .navbar {
     background-color: gold !important;
     
@@ -8,6 +48,29 @@
     justify-content: space-evenly;
 }
 
+/* MAIN */
+
+main .logo{
+    margin: 0;
+    padding: 20px 30px;
+    font-weight:bold ;
+    background: darkred;
+
+}
+
+main .logo a{
+    color: darkgoldenrod;
+    font-weight:bold ;
+    
+}
+
+
+main .conteiner{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 /* footer */
 footer {
