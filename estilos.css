@@ -23,8 +23,8 @@ button{
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 10px;
-    border: 2px solid rgb(0,0,0,0,5);
-    box-shadow: 1px, 2px, 10px rgb(0,0,0,0,5);
+    border: 2px solid rgb(0,0,0,0.753);
+    box-shadow: 1px, 2px, 10px rgba(0, 0, 0, 0.753);
     background: red;
     color: gold;
 }
@@ -37,6 +37,14 @@ button:hover{
 .conteiner{
     max-width: 1400px;
     margin: auto;
+}
+
+.color-secund{
+    color: darkred;
+}
+
+.color-ter{
+    color: darkgoldenrod;
 }
 .navbar {
     background-color: gold !important;
@@ -55,13 +63,18 @@ main .logo{
     padding: 20px 30px;
     font-weight:bold ;
     background: darkred;
+    display: flex;
+    justify-content: space-between;
 
 }
 
 main .logo a{
     color: darkgoldenrod;
     font-weight:bold ;
-    
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;   
+   
 }
 
 
@@ -69,8 +82,59 @@ main .conteiner{
     
     display: flex;
     flex-direction: column;
-    align-items: center;
+   
+    
 }
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+   height: 90vh;
+   color: white;
+   background-image:linear-gradient(
+    0deg,
+    rgba(0,0,0,0.753),
+    rgba(0,0,0,0.753)
+   )
+    ,url("./galeria/logo-club/equipo.jpg") ;
+   background-repeat: no-repeat;
+   background-size: cover ;
+   background-position: center;
+}
+
+
+#nuestro-club{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+/* Categorias Hombres */
+
+#nuestras-categorias-h{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+#nuestras-categorias-h .conteiner {
+    padding: 100px 10px;
+}
+#nuestras-categorias-h p{
+    display: none;
+}
+
+/* Categorias Mujeres */
+#nuestras-categorias-m{
+    background-color: rgb(30,30,30);
+    color: white;
+    margin-top: 15px;
+}
+#nuestras-categorias-m .conteiner {
+    text-align: center;
+}
+
 
 /* footer */
 footer {
