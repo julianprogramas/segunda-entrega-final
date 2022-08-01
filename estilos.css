@@ -125,6 +125,29 @@ main .conteiner{
     display: none;
 }
 
+/* Fixture */
+
+main .clearfix{
+    height: 90vh;
+    
+    text-align: center center; 
+}
+
+main .clearfix p{
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+
+
+.container .col{
+    background: darkgoldenrod;
+    border: 1px darkred solid;
+    color: darkmagenta;
+}
+
+
+
 
 /* Cartas img */
 #categorias-h .carta{
@@ -514,3 +537,23 @@ footer {
    }
 
 }
+
+
+@media (max-width:750px) {
+   main .clearfix img{
+    width:50% ;
+    height:50% ;
+}
+}
+
+@media (max-width:750px) {
+    main .clearfix p{
+        margin-top:0px;
+        font-size: 10px;
+        
+    }
+ 
+ }
+
+
+
