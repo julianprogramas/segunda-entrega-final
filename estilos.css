@@ -196,8 +196,90 @@ main .conteiner{
 ,url("./galeria/logo-club/cideco.png") ;
 
 }
+/* Nosotros */
+.nosotros-galeria {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 200px;
+    gap: 15px;
+
+}
 
 
+.contenedor {
+    position: relative;
+}
+
+.contenedor h5 {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.687);
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.img-1 {
+    grid-column-start: span ;
+    grid-row-start: span ; 
+
+}
+
+
+.img-2 {
+     grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+
+.img-5 {
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+}
+
+
+
+
+.img-fotos h5 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.img-fotos {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    object-fit: cover;
+
+}
+
+.nosotros-galeria img {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    object-fit: cover;
+    animation: ease-in animat 3s;
+}
+
+@keyframes animat {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+    
+
+
+}
 
 
 /* Categorias Mujeres */
