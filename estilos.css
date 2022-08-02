@@ -82,11 +82,13 @@ main .conteiner{
     
     display: flex;
     flex-direction: column;
+    background-color: wheat;
    
     
 }
 
 #hero{
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -124,6 +126,12 @@ main .conteiner{
 #categorias-h p{
     display: none;
 }
+/* Contactos */
+#tabla .tabla-general .escudo img{
+  height: 50px;  
+}
+
+
 
 /* Fixture */
 
